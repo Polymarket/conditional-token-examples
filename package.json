@@ -1,9 +1,14 @@
 {
-    "name": "@polymarket/xxxxx",
+    "name": "@polymarket/conditional-token-examples",
     "description": "",
     "version": "0.0.1",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "scripts": {
+        "merge": "ts-node src/merge.ts",
+        "mint": "ts-node src/mint.ts",
+        "redeem": "ts-node src/redeem.ts"
+        },
     "files": [
         "/dist"
     ],
