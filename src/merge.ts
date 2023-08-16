@@ -26,7 +26,7 @@ async function main(){
      
     const amount = ethers.utils.parseUnits("100", 6); // Amount of Outcome tokens to merge
 
-    const txn = await ctf.splitPosition(
+    const txn = await ctf.mergePositions(
         usdcAddress, // The collateral token address
         ethers.constants.HashZero, // The parent collectionId, always bytes32(0) for Polymarket markets
         conditionId, // The conditionId of the market

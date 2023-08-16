@@ -1,5 +1,6 @@
 # Conditional Token Framework Examples
 
+Examples showing how to interact with the Conditional Token Framework using ethers.js
 
 Run `yarn mint`, `yarn merge` or `yarn redeem`
 
